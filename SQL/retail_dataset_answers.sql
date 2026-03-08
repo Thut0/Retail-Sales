@@ -92,3 +92,26 @@ FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
 
 SELECT MIN(Price_per_Unit) AS Min_Price_per_Unit
 FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+
+--5. GROUP BY Statement
+
+--Q15. Find the number of transactions per Product Category. Expected output: Product Category, Transaction_Count
+
+SELECT Product_Category,
+COUNT(*) AS Transaction_Count
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+GROUP BY Product_Category
+
+--Q16. Find the total revenue (Total Amount) per gender. Expected output: Gender, Total_Revenue
+
+SELECT Gender,
+SUM(Total_Amount) AS Total_Revenue
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+GROUP BY Gender
+
+--Q17. Find the average Price per Unit per product category. Expected output: Product Category, Average_Price
+
+SELECT Product_Category,
+AVG(Price_per_Unit) AS Average_Price
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+GROUP BY Product_Category
