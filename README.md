@@ -6,7 +6,7 @@
 
 This repository contains a series of SQL queries designed to analyze a retail sales dataset. The project focuses on fundamental SQL syntax and data manipulation techniques used in data engineering and analytics.
 
-📌 Project Overview
+## 📌 Project Overview
 
 The goal of this project is to extract meaningful insights from retail transaction data by answering specific business questions. The queries cover:
 
@@ -18,7 +18,7 @@ Data Grouping: Analyzing performance across different categories and genders usi
 
 Conditional Logic: Using CASE statements to create custom categories like spending levels and age groups.
 
-Dataset Description
+## 📊 Dataset Description
 The analysis is performed on the retail_sales_dataset.csv, which includes the following attributes:
 
 Transaction ID: Unique identifier for each sale.
