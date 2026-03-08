@@ -4,13 +4,9 @@
 ![Database](https://img.shields.io/badge/Tool-SSMS-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Learning-green?style=for-the-badge)
 
-# Retail-Sales
-A collection of SQL queries demonstrating fundamental data analysis techniques on a retail sales dataset, covering basic syntax, aggregations, and data categorization.
-
-Retail Sales Data Analysis - SQL Fundamentals
 This repository contains a series of SQL queries designed to analyze a retail sales dataset. The project focuses on fundamental SQL syntax and data manipulation techniques used in data engineering and analytics.
 
-Project Overview
+📌 Project Overview
 The goal of this project is to extract meaningful insights from retail transaction data by answering specific business questions. The queries cover:
 
 Basic Selection & Filtering: Extracting specific columns and filtering records based on conditions.
