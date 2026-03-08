@@ -1,3 +1,9 @@
+# 🛍️ Retail Sales Data Analysis
+
+![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=postgresql&logoColor=white)
+![Database](https://img.shields.io/badge/Tool-Snowflake-orange?style=for-the-badge&logo=snowflake&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Learning-green?style=for-the-badge)
+
 # Retail-Sales
 A collection of SQL queries demonstrating fundamental data analysis techniques on a retail sales dataset, covering basic syntax, aggregations, and data categorization.
 
