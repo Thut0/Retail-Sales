@@ -61,3 +61,34 @@ WHERE Product_Category  NOT IN ('Clothing')
 SELECT *
 FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
 WHERE Quantity >= 3
+
+--4. Aggregate Functions
+
+--Q10. Count the total number of transactions. Expected output: Total_Transactions
+
+SELECT COUNT(*) AS Total_Transactions
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+
+--Q11. Find the average Age of customers. Expected output: Average_Age
+
+SELECT AVG(Age) AS Average_Age
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+
+--Q12. Find the total quantity of products sold. Expected output: Total_Quantity
+
+SELECT SUM(CAST(Quantity AS bigint)) AS Total_Quantity
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+
+--Q13. Find the maximum Total Amount spent in a single transaction. Expected output: Max_Total_Amount
+
+SELECT MAX(Total_Amount) AS Max_Total_Amount
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+
+--SELECT Total_Amount
+--FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+--ORDER BY Total_Amount desc
+
+--Q14. Find the minimum Price per Unit in the dataset. Expected output: Min_Price_per_Unit
+
+SELECT MIN(Price_per_Unit) AS Min_Price_per_Unit
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
