@@ -115,3 +115,21 @@ SELECT Product_Category,
 AVG(Price_per_Unit) AS Average_Price
 FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
 GROUP BY Product_Category
+
+--6. HAVING Clause
+
+--Q18. Find the total revenue per product category where total revenue is greater than 10,000. Expected output: Product Category, Total_Revenue
+
+SELECT Product_Category,
+SUM(Total_Amount) AS Total_Revenue
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+GROUP BY Product_Category
+HAVING SUM(Total_Amount) > 10000
+
+--Q19. Find the average quantity per product category where the average is more than 2. Expected output: Product Category, Average_Quantity
+
+SELECT Product_Category,
+AVG(CAST(Quantity AS float)) AS Average_Quantity
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+GROUP BY Product_Category
+HAVING AVG(CAST(Quantity AS float)) > 2
