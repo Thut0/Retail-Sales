@@ -21,17 +21,17 @@ Conditional Logic: Using CASE statements to create custom categories like spendi
 ## 📊 Dataset Description
 The analysis is performed on the retail_sales_dataset.csv, which includes the following attributes:
 
-Transaction ID: Unique identifier for each sale.
+🆔 **Transaction ID:** Unique identifier for each sale.
 
-Date: The date of the transaction.
+📆 **Date:** The date of the transaction.
 
-Customer ID: Unique identifier for the customer.
+👤 **Customer ID:** Unique identifier for the customer.
 
-Product Category: Category of the item purchased (e.g., Beauty, Clothing, Electronics).
+📦 **Product Category:** Category of the item purchased (e.g., Beauty, Clothing, Electronics).
 
-Quantity & Price per Unit: Details of the items sold.
+💰 **Quantity & Price per Unit:** Details of the items sold.
 
-Total Amount: The total value of the transaction.
+💰 **Total Amount:** The total value of the transaction.
 
 Key SQL Concepts Applied
 Data Retrieval: SELECT, SELECT DISTINCT
