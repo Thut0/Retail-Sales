@@ -7,6 +7,7 @@
 This repository contains a series of SQL queries designed to analyze a retail sales dataset. The project focuses on fundamental SQL syntax and data manipulation techniques used in data engineering and analytics.
 
 📌 Project Overview
+
 The goal of this project is to extract meaningful insights from retail transaction data by answering specific business questions. The queries cover:
 
 Basic Selection & Filtering: Extracting specific columns and filtering records based on conditions.
