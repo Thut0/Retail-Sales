@@ -1,7 +1,7 @@
 # 🛍️ Retail Sales Data Analysis
 
 ![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=postgresql&logoColor=white)
-![Database](https://img.shields.io/badge/Tool-Snowflake-orange?style=for-the-badge&logo=snowflake&logoColor=white)
+![Database](https://img.shields.io/badge/Tool-SSMS-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Learning-green?style=for-the-badge)
 
 # Retail-Sales
