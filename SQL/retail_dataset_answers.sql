@@ -133,3 +133,30 @@ AVG(CAST(Quantity AS float)) AS Average_Quantity
 FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
 GROUP BY Product_Category
 HAVING AVG(CAST(Quantity AS float)) > 2
+
+--7. CASE Statement
+--Q20. Display a column called Spending_Level that shows 'High' if Total Amount > 1000, otherwise 'Low'. Expected output: Transaction ID, Total Amount, Spending_Level
+
+SELECT Transaction_ID , Total_Amount,
+CASE
+	WHEN Total_Amount > 1000 THEN 'High'
+	ELSE 'Low'
+END AS Spending_Level
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
+
+--Q21. Display a new column called Age_Group that labels customers as:
+--•
+--'Youth' if Age < 30
+--•
+--'Adult' if Age is between 30 and 59
+--•
+--'Senior' if Age >= 60 Expected output: Customer ID, Age, Age_Group
+
+SELECT Customer_ID,
+Age,
+CASE
+	WHEN Age < 30 THEN 'Youth'
+	WHEN Age Between 30 AND 59 THEN 'Adult'
+	ELSE 'Senior'
+END AS Age_Group
+FROM retail_sales.dbo.[1772863888723_retail_sales_dataset]
