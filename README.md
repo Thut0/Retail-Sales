@@ -21,30 +21,42 @@ Conditional Logic: Using CASE statements to create custom categories like spendi
 ## 📊 Dataset Description
 The analysis is performed on the retail_sales_dataset.csv, which includes the following attributes:
 
-Transaction ID: Unique identifier for each sale.
+🆔 **Transaction ID:** Unique identifier for each sale.
 
-Date: The date of the transaction.
+📆 **Date:** The date of the transaction.
 
-Customer ID: Unique identifier for the customer.
+👤 **Customer ID:** Unique identifier for the customer.
 
-Product Category: Category of the item purchased (e.g., Beauty, Clothing, Electronics).
+📦 **Product Category:** Category of the item purchased (e.g., Beauty, Clothing, Electronics).
 
-Quantity & Price per Unit: Details of the items sold.
+💰 **Quantity & Price per Unit:** Details of the items sold.
 
-Total Amount: The total value of the transaction.
+💰 **Total Amount:** The total value of the transaction.
 
-Key SQL Concepts Applied
-Data Retrieval: SELECT, SELECT DISTINCT
+## 🛠️ Key SQL Concepts Applied
 
-Filtering: WHERE, AND/OR, IN, BETWEEN
+**Data Retrieval:** SELECT, SELECT DISTINCT
 
-Sorting: ORDER BY
+**Filtering:** WHERE, AND/OR, IN, BETWEEN
 
-Aggregate Functions: COUNT(), SUM(), AVG(), MIN(), MAX()
+**Sorting:** ORDER BY
 
-Grouping: GROUP BY, HAVING
+**Aggregate Functions:** COUNT(), SUM(), AVG(), MIN(), MAX()
 
-Conditional Logic: CASE statements
+**Grouping:** GROUP BY, HAVING
+
+**Conditional Logic:** CASE statements
+
+## 💡 Key Insights Explored
+Some of the specific business questions answered in this project include:
+
+📈 **Revenue Analysis:** Identifying total sales per product category and gender.
+
+👥 **Demographics:** Categorizing customers into Youth, Adult, and Senior brackets.
+
+🛒 **Inventory Trends:** Calculating total quantities sold and average price points.
+
+🚩 **High-Value Targets:** Filtering categories that generated over 10,000 in revenue.
 
 How to Use
 Load the retail_sales_dataset.csv into your SQL environment (e.g., Snowflake, Databricks, or SSMS).
